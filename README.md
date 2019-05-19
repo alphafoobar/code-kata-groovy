@@ -8,6 +8,10 @@ Groovy is commonly used as the DSL for gradle build files, so most Java develope
 developers on other projects will need to have some familiarity with this language and it's
 a little different to most C-esque languages.
 
+# Groovy Koans
+
+[Groovy Koans](http://nadavc.github.io/groovykoans/)! My [github fork](https://github.com/alphafoobar/groovykoans).
+
 # Getting started
 
 1. Clone this repository
