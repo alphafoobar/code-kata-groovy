@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/alphafoobar/code-kata-groovy.svg?branch=master)](https://travis-ci.com/alphafoobar/code-kata-groovy)
 # Code Kata Groovy
 
 Need to learn some Groovy? Take a look at [Groovy Koans](http://nadavc.github.io/groovykoans/)!
