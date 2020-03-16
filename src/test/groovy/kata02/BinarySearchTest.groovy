@@ -1,21 +1,26 @@
 package kata02
 
-class BinarySearchTest extends GroovyTestCase {
+import org.junit.jupiter.api.Test
+
+class BinarySearchTest {
 
   private BinarySearch search = new BinarySearch()
 
-  void test_nothing() {
+  @Test
+  void testNothing() {
     int[] ints = []
     assert -1 == search.chop(3, ints)
   }
 
-  void test_one() {
+  @Test
+  void testOne() {
     int[] ints = [1]
     assert -1 == search.chop(3, ints)
     assert 0 == search.chop(1, ints)
   }
 
-  void test_three() {
+  @Test
+  void testThree() {
     int[] ints = [1, 3, 5]
     assert 0 == search.chop(1, ints)
     assert 1 == search.chop(3, ints)
@@ -26,7 +31,8 @@ class BinarySearchTest extends GroovyTestCase {
     assert -1 == search.chop(6, ints)
   }
 
-  void test_four() {
+  @Test
+  void testFour() {
     int[] ints = [1, 3, 5, 7]
     assert 0 == search.chop(1, ints)
     assert 1 == search.chop(3, ints)
